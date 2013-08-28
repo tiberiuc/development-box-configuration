@@ -24,7 +24,10 @@ sudo update-alternatives --set editor /usr/bin/vim.nox
 
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
-#sudo cp -vR ./configs/root/* /
+# set PHP5-Fpm to work with port instead of socket
+PHP5FPM_CONF=/etc/php5/fpm/pool.d/www.conf
+sudo sed -i /^%listen/d ${PHP5FPM_CONF}
+sudo echo "listen=127.0.0.1:9000" >> ${PHP5FPM_CONF}
 
 mkdir -p ~/work
 
