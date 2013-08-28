@@ -26,8 +26,8 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 
 # set PHP5-Fpm to work with port instead of socket
 PHP5FPM_CONF=/etc/php5/fpm/pool.d/www.conf
-sudo sed -i /^%listen/d ${PHP5FPM_CONF}
-sudo echo "listen=127.0.0.1:9000" >> ${PHP5FPM_CONF}
+echo "sed -i /^listen/d ${PHP5FPM_CONF}" | sudo bash
+echo "echo 'listen=127.0.0.1:9000' >> ${PHP5FPM_CONF}" | sudo bash
 
 mkdir -p ~/work
 
