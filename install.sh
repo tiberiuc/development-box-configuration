@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get -y install ruby rubygems puppet curl zsh mc rake git git-flow nodejs chef graphicsmagick php5-cli php5-fpm php5-curl libimage-exiftool-perl optipng libjpeg-turbo-progs optipng ruby-dev libpcre3-dev cmake unzip nfs-common tig ruby-haml python-pip
 
-sudo gem install --no-rdoc --no-ri haml sass coffee-script uglifier fssm listen aws-s3 json imagesize gitup
+sudo gem install --no-rdoc --no-ri haml sass coffee-script uglifier fssm listen aws-s3 json imagesize git-up
 
 # install vim 7.4
 sudo add-apt-repository ppa:pi-rho/dev
