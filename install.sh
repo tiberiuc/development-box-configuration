@@ -20,7 +20,7 @@ pip install --user git+git://github.com/Lokaltog/powerline
 
 sudo chsh vagrant -s /bin/zsh
 
-sudo update-alternatives --set editor /usr/bin/vim
+sudo update-alternatives --set editor /usr/bin/vim.nox
 
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
@@ -30,4 +30,4 @@ mkdir -p ~/work
 
 #../install_projects.sh
 
-export EDITOR=vim
+export EDITOR=vim.nox
