@@ -9,7 +9,7 @@ sudo gem install --no-rdoc --no-ri haml sass coffee-script uglifier fssm listen 
 # install vim 7.4
 sudo add-apt-repository ppa:pi-rho/dev
 sudo apt-get update
-sudo apt-get install vim vim.nox tmux
+sudo apt-get -y install vim vim.nox tmux
 
 sudo apt-get autoremove
 sudo apt-get clean
