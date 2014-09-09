@@ -22,7 +22,7 @@ sudo chsh vagrant -s /bin/zsh
 
 sudo update-alternatives --set editor /usr/bin/vim.nox
 
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 # set PHP5-Fpm to work with port instead of socket
 PHP5FPM_CONF=/etc/php5/fpm/pool.d/www.conf
