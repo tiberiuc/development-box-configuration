@@ -33,4 +33,6 @@ mkdir -p ~/work
 
 #../install_projects.sh
 
-export EDITOR=vim.nox
+export EDITOR=vim.nox
+
+ git config --global status.displayCommentPrefix true
