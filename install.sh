@@ -16,7 +16,7 @@ sudo apt-get clean
 sudo gem cleanup
 rm -rf "$(gem env gemdir)"/doc/*
 
-pip install --user git+git://github.com/Lokaltog/powerline
+#pip install --user git+git://github.com/Lokaltog/powerline
 
 sudo chsh vagrant -s /bin/zsh
 
